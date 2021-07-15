@@ -1,0 +1,124 @@
+/*
+==================================================
+Fonts
+==================================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+/*
+==================================================
+Reset
+==================================================
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+/*
+==================================================
+CSS
+==================================================
+*/
+
+body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: 'Open Sans Condensed', sans-serif;
+      }
+      .image {
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .one {
+        background-image: url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+      }
+      .two {
+        background-image: url("https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80")
+      }
+      .three {
+        background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1063&q=80")
+      }
+      .four {
+        background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+      }
+      .five {
+        background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+      }
+      .six {
+        background-image: url("https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80")
+      }
+      .seven {
+        background-image: url("https://images.unsplash.com/photo-1543269865-96ae30571b5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+      }
+      .contact{
+        color:white;
+        font-size: 20px;
+        border-left: white solid 2px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        text-align: center;
+        writing-mode: vertical-lr;
+        padding: 5px 5px;
+      }
+      .research{
+        color:white;
+        font-size: 20px;
+        font-weight: 100;
+        border-left: white solid 2px;
+        position: fixed;
+        top: 0;
+        right:27px;
+        height: 100vh;
+        text-align: center;
+        writing-mode: vertical-lr;
+        padding: 5px 5px;
+      }
